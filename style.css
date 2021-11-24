@@ -1037,10 +1037,11 @@ a {
 }
 
 sup {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 800;
   color: var(--primary-bg);
   vertical-align: 20px;
+  margin-right: 0.2rem;
 }
 
 .text {
@@ -1620,6 +1621,10 @@ sup {
     width: 100%;
   }
 
+  .contact-form .row{
+    flex-direction: column;
+  }
+
 
   /* section faq */
 
@@ -1630,6 +1635,10 @@ sup {
     width: 100%;
   }
 
+  .faq-close .fa-angle-down{
+    margin-left: 0.2rem;
+  }
+
 
   /* section pricing */
   .pricing-plans{
@@ -1638,6 +1647,16 @@ sup {
 
   .plan{
     margin-bottom: 1.5rem;
+  }
+
+  .badge{
+    padding: 0.3rem 2rem;
+  }
+
+  sup{
+    vertical-align: 13px;
+    font-size: 1.2rem;
+    margin-right: 0.2rem;
   }
 
   /* section team */
